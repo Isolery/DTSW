@@ -9,7 +9,20 @@
 			"iostream": "cpp",
 			"sstream": "cpp",
 			"ostream": "cpp",
-			"stdio.h": "c"
+			"stdio.h": "c",
+			"inet.h": "c",
+			"compare": "cpp",
+			"memory": "cpp",
+			"tuple": "cpp",
+			"type_traits": "cpp",
+			"utility": "cpp",
+			"xmemory": "cpp",
+			"xstring": "cpp",
+			"xtr1common": "cpp",
+			"xutility": "cpp",
+			"stdbool.h": "c",
+			"fcntl.h": "c",
+			"signal.h": "c"
 		}
 	}
 }
