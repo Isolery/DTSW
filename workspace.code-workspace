@@ -10,10 +10,26 @@
 			"sstream": "cpp",
 			"ostream": "cpp",
 			"stdio.h": "c",
+<<<<<<< HEAD
 			"select.h": "c",
 			"unistd.h": "c",
 			"features.h": "c",
 			"cdefs.h": "c"
+=======
+			"inet.h": "c",
+			"compare": "cpp",
+			"memory": "cpp",
+			"tuple": "cpp",
+			"type_traits": "cpp",
+			"utility": "cpp",
+			"xmemory": "cpp",
+			"xstring": "cpp",
+			"xtr1common": "cpp",
+			"xutility": "cpp",
+			"stdbool.h": "c",
+			"fcntl.h": "c",
+			"signal.h": "c"
+>>>>>>> d6ebfc75d65fc816e95a79708a572cbea3e9cb2d
 		}
 	}
 }
