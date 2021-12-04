@@ -9,7 +9,11 @@
 			"iostream": "cpp",
 			"sstream": "cpp",
 			"ostream": "cpp",
-			"stdio.h": "c"
+			"stdio.h": "c",
+			"select.h": "c",
+			"unistd.h": "c",
+			"features.h": "c",
+			"cdefs.h": "c"
 		}
 	}
 }
