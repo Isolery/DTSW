@@ -22,7 +22,21 @@
 			"xutility": "cpp",
 			"stdbool.h": "c",
 			"fcntl.h": "c",
-			"signal.h": "c"
+			"signal.h": "c",
+			"error_functions.h": "c",
+			"tlpi_hdr.h": "c",
+			"get_num.h": "c",
+			"*.inc": "c",
+			"stdarg.h": "c",
+			"cstdio": "c",
+			"exception": "c",
+			"new": "c",
+			"errno.h": "c",
+			"features.h": "c",
+			"stdint.h": "c",
+			"stddef.h": "c",
+			"types.h": "c",
+			"cctype": "c"
 		}
 	}
 }
