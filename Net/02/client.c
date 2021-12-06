@@ -21,7 +21,7 @@ int main()
     }
 
     caddr.sin_family = AF_INET;
-    caddr.sin_addr.s_addr = inet_addr("192.168.1.105");
+    caddr.sin_addr.s_addr = inet_addr("127.0.0.1");
     caddr.sin_port = htons(8888);
 
     if(connect(sock, (struct sockaddr*)&caddr, sizeof(caddr)) == -1){
