@@ -25,7 +25,7 @@ int main()
 
     saddr.sin_family = AF_INET;
     saddr.sin_addr.s_addr = htonl(INADDR_ANY);
-    saddr.sin_port = htons(8899);
+    saddr.sin_port = htons(8888);
 
     if(bind(server, (struct sockaddr *)&saddr, sizeof(saddr)) == -1){
         printf("server bind error\n");
@@ -49,23 +49,21 @@ int main()
 
     printf("client: %d\n", client);
 
+    int r = 0;
+
     do
     {
-        int r = recv(client, buf, sizeof(buf), 0);
+        r = recv(client, buf, sizeof(buf), 0);
         if(r > 0){
-            len += r;
+            for(int i=0; i<r; i++)
+            {
+                printf("%02x ", buf[i]);
+            }
+
+            printf("\n");
         }
-        for(int i=0; i<r; i++)
-        {
-            printf("%c", buf[i]);
-        }
-    }while(len < 64);
-
-    printf("\n");
-
-    send(client, "Hello world!\n", 12, 0);
-
-    sleep(1);
+        
+    }while(r > 0);
 
     close(client);
     close(server);
