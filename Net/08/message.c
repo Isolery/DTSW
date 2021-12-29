@@ -2,7 +2,8 @@
 #include <malloc.h>
 #include <string.h>
 
-Message* Message_New(unsigned short type, unsigned short cmd, unsigned short index, unsigned short total, unsigned int length, const char* payload)
+Message* Message_New(unsigned short type, unsigned short cmd, unsigned short index, 
+                     unsigned short total, unsigned int length, const char* payload)
 {
     Message* ret = malloc(sizeof(Message) + length);
 
