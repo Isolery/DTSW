@@ -1,0 +1,43 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"iostream": "cpp",
+			"sstream": "cpp",
+			"ostream": "cpp",
+			"stdio.h": "c",
+			"inet.h": "c",
+			"compare": "cpp",
+			"memory": "cpp",
+			"tuple": "cpp",
+			"type_traits": "cpp",
+			"utility": "cpp",
+			"xmemory": "cpp",
+			"xstring": "cpp",
+			"xtr1common": "cpp",
+			"xutility": "cpp",
+			"stdbool.h": "c",
+			"fcntl.h": "c",
+			"signal.h": "c",
+			"error_functions.h": "c",
+			"tlpi_hdr.h": "c",
+			"get_num.h": "c",
+			"*.inc": "c",
+			"stdarg.h": "c",
+			"cstdio": "c",
+			"exception": "c",
+			"new": "c",
+			"errno.h": "c",
+			"features.h": "c",
+			"stdint.h": "c",
+			"stddef.h": "c",
+			"types.h": "c",
+			"cctype": "c",
+			"msg_parser.h": "c"
+		}
+	}
+}
