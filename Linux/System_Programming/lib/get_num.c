@@ -47,7 +47,7 @@ gnFail(const char *fname, const char *msg, const char *arg, const char *name)
    the command-line argument 'arg'. 'fname' and 'name' are used to print a
    diagnostic message in case an error is detected when processing 'arg'. */
 
-static long
+static long 
 getNum(const char *fname, const char *arg, int flags, const char *name)
 {
     long res;

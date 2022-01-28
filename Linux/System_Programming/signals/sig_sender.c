@@ -20,8 +20,7 @@ int main(int argc, char *argv[])
     for (j = 0; j < numSigs; j++)
     {
         if (kill(pid, sig) == -1)
-            if (kill(pid, sig) == -1)
-                errExit("kill");
+            errExit("kill");
     }
 
     // 如果有第四个参数, 则发送一次该参数对应的信号
